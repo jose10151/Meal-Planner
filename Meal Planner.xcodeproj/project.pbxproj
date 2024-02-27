@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		7ECF2DDF2B8E5CED00AF87CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF2DDE2B8E5CED00AF87CA /* AppDelegate.swift */; };
 		7ECF2DE12B8E5CED00AF87CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF2DE02B8E5CED00AF87CA /* SceneDelegate.swift */; };
-		7ECF2DE32B8E5CED00AF87CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF2DE22B8E5CED00AF87CA /* ViewController.swift */; };
 		7ECF2DE62B8E5CED00AF87CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ECF2DE42B8E5CED00AF87CA /* Main.storyboard */; };
 		7ECF2DE82B8E5CEF00AF87CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ECF2DE72B8E5CEF00AF87CA /* Assets.xcassets */; };
 		7ECF2DEB2B8E5CEF00AF87CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ECF2DE92B8E5CEF00AF87CA /* LaunchScreen.storyboard */; };
 		7ECF2DF62B8E5CEF00AF87CA /* Meal_PlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF2DF52B8E5CEF00AF87CA /* Meal_PlannerTests.swift */; };
 		7ECF2E002B8E5CEF00AF87CA /* Meal_PlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF2DFF2B8E5CEF00AF87CA /* Meal_PlannerUITests.swift */; };
 		7ECF2E022B8E5CEF00AF87CA /* Meal_PlannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF2E012B8E5CEF00AF87CA /* Meal_PlannerUITestsLaunchTests.swift */; };
+		7ECF2E0F2B8E5DBF00AF87CA /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF2E0E2B8E5DBF00AF87CA /* TableViewController.swift */; };
+		7ECF2E112B8E605A00AF87CA /* new.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF2E102B8E605A00AF87CA /* new.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,6 @@
 		7ECF2DDB2B8E5CED00AF87CA /* Meal Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meal Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECF2DDE2B8E5CED00AF87CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7ECF2DE02B8E5CED00AF87CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7ECF2DE22B8E5CED00AF87CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7ECF2DE52B8E5CED00AF87CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7ECF2DE72B8E5CEF00AF87CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7ECF2DEA2B8E5CEF00AF87CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		7ECF2DFB2B8E5CEF00AF87CA /* Meal PlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meal PlannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECF2DFF2B8E5CEF00AF87CA /* Meal_PlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal_PlannerUITests.swift; sourceTree = "<group>"; };
 		7ECF2E012B8E5CEF00AF87CA /* Meal_PlannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal_PlannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7ECF2E0E2B8E5DBF00AF87CA /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		7ECF2E102B8E605A00AF87CA /* new.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = new.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +103,9 @@
 			children = (
 				7ECF2DDE2B8E5CED00AF87CA /* AppDelegate.swift */,
 				7ECF2DE02B8E5CED00AF87CA /* SceneDelegate.swift */,
-				7ECF2DE22B8E5CED00AF87CA /* ViewController.swift */,
 				7ECF2DE42B8E5CED00AF87CA /* Main.storyboard */,
+				7ECF2E102B8E605A00AF87CA /* new.swift */,
+				7ECF2E0E2B8E5DBF00AF87CA /* TableViewController.swift */,
 				7ECF2DE72B8E5CEF00AF87CA /* Assets.xcassets */,
 				7ECF2DE92B8E5CEF00AF87CA /* LaunchScreen.storyboard */,
 				7ECF2DEC2B8E5CEF00AF87CA /* Info.plist */,
@@ -258,8 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7ECF2DE32B8E5CED00AF87CA /* ViewController.swift in Sources */,
 				7ECF2DDF2B8E5CED00AF87CA /* AppDelegate.swift in Sources */,
+				7ECF2E0F2B8E5DBF00AF87CA /* TableViewController.swift in Sources */,
+				7ECF2E112B8E605A00AF87CA /* new.swift in Sources */,
 				7ECF2DE12B8E5CED00AF87CA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
